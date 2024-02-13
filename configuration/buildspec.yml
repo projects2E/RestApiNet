@@ -15,7 +15,7 @@ phases:
   post_build:
     commands:
       - echo "Publicando la API..."
-      - dotnet publish -c Release -f net8.0 -o /tmp/publish
+      - dotnet publish -c Release -f net5.0 -o /tmp/publish
 artifacts:
   files:
     - /tmp/publish/**
