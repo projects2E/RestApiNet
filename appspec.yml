@@ -2,11 +2,11 @@ version: 0.0
 os: windows
 files:
   - source: \builds\
-    destination: C:\inetpub\wwwroot\cliente2\
+    destination: C:\inetpub\wwwroot\cliente2\api\
   - source: \builds\
-    destination: C:\inetpub\wwwroot\cliente3\
+    destination: C:\inetpub\wwwroot\cliente3\api\
   - source: \builds\
-    destination: C:\inetpub\wwwroot\cliente1\
+    destination: C:\inetpub\wwwroot\cliente1\api\
 hooks:
   BeforeInstall:
     - location: \before-iis-install-stop.bat
