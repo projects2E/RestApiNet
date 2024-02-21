@@ -1,7 +1,7 @@
 version: 0.0
 os: windows
 files:
-  - source: /build/
+  - source: \builds\
     destination: C:\inetpub\wwwroot\cliente2
     ignore:
       - '*.config'
