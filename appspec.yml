@@ -3,6 +3,10 @@ os: windows
 files:
   - source: \builds\
     destination: C:\inetpub\wwwroot\cliente2
+  - source: \builds\
+    destination: C:\inetpub\wwwroot\cliente3
+  - source: \builds\
+    destination: C:\inetpub\wwwroot\cliente1
 hooks:
   BeforeInstall:
     - location: \before-iis-install-stop.bat
