@@ -19,3 +19,6 @@ phases:
 artifacts:
   files:
     - /builds/**
+    - appspec.yml
+    - after-iis-install-start.bat
+    - before-iis-install-stop.bat
