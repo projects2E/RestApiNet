@@ -1,0 +1,12 @@
+version: 0.0
+os: windows
+files:
+  - source: /
+    destination: C:\inetpub\wwwroot\client2
+hooks:
+  BeforeInstall:
+    - location: \before-iis-install-stop.bat
+      timeout: 900
+  AfterInstall:
+    - location: \after-iis-install-start.bat
+      timeout: 180
