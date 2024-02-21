@@ -2,7 +2,7 @@ version: 0.0
 os: windows
 files:
   - source: /
-    destination: C:\inetpub\wwwroot\client2
+    destination: C:\inetpub\wwwroot\cliente2
 hooks:
   BeforeInstall:
     - location: \before-iis-install-stop.bat
